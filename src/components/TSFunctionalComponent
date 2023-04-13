@@ -1,0 +1,14 @@
+// interface TSFunctionalComponentProps {
+//     textContent: string
+// }
+// const TSFunctionalComponent = (props: TSFunctionalComponentProps) => {
+//     return (
+//         <div style={{ color: this.props.color || "black" }}>
+//         <h2>Class Component</h2>
+//         <p>Vediamo come lavora in TS - {this.state.firstName}</p>
+//         <p>
+//           {this.props.textContent} - {this.props.count}
+//         </p>
+//       </div>
+//     )
+// }

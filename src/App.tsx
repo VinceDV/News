@@ -21,7 +21,7 @@ function App() {
               </Row>
             }
           ></Route>
-          <Route path="/SpecificArticle" element={
+          <Route path="/SpecificArticle/:id" element={
             <SpecificArticle />
           }>
 

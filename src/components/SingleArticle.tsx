@@ -13,7 +13,7 @@ const SingleArticle = (props: SingleArticleProps) => {
   const location = useLocation();
 
   const handleClick = () => {
-    navigate("/SpecificArticle");
+    navigate("/SpecificArticle/" + props.article.id);
   };
   return (
     <Col className="col col-sm-6 col-md-3 mb-5">

@@ -40,13 +40,13 @@ const SpecificArticle = (): JSX.Element => {
 
   return (
     <>
-      <Col className="col col-sm-12">
+      <Col className="col col-sm-12 d-flex justify-content-center">
         {article &&
         <Card className="mx-5" style={{ width: "25rem" }}>
           <Card.Img variant="top" src={article.imageUrl} />
           <Card.Body>
             <Card.Title>{article.title}</Card.Title>
-            <Card.Text className="text-truncate">
+            <Card.Text>
               {article.summary}
             </Card.Text>
             <Button variant="primary" onClick={handleClick}>
